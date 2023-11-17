@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form name="form">
+      <table>
+        <tr>
+          <th colspan="3">PROGRAM KASIR BUAH</th>
+        </tr>
+        <tr>
+          <th>Buah</th>
+          <th>Harga</th>
+          <th>Jumlah</th>
+        </tr>
+        <tr>
+          <td>
+            <label> <input type="checkbox" class="apel" /> </label>Apel
+          </td>
+          <td>23000</td>
+          <td><input type="text" class="jumlah_apel" /></td>
+        </tr>
+        <tr>
+          <td>
+            <label> <input type="checkbox" class="apel" /> </label>Anggur
+          </td>
+          <td>20000</td>
+          <td><input type="text" class="jumlah_anggur" /></td>
+        </tr>
+        <tr>
+          <td>
+            <label>TOTAL</label>
+          </td>
+          <td>
+            <input type="text" id="total" disabled />
+          </td>
+        </tr>
+        <tr>
+          <td><input type="button" value="proses" /></td>
+        </tr>
+      </table>
+    </form>
+    <script src="transaksi.js"></script>
+  </body>
+</html>

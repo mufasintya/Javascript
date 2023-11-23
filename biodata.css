@@ -1,30 +1,36 @@
 * {
   background-color: #ffeaea;
 }
-/* .container {
-  max-width: 1170px;
+.container {
+  /*tidak termasuk pada container header*/
+  margin-top: 40px;
+  max-width: 1270px;
   width: 100%;
-} */
-header {
   margin: 0 40px;
+  box-shadow: 5px 5px 10px #6e1e1e;
 }
-.atas {
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+header {
   font-size: 10;
   background-color: #dc8484;
   height: 40px;
+  max-width: 1270px;
+  width: 100%;
+  margin: 40px 0 40px 40px;
+  margin-bottom: 0;
+  box-shadow: 5px 5px 10px #6e1e1e;
 }
-.atas a {
+header a {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   line-height: 40px;
+  margin-right: 50px;
   color: white;
-  float: left;
-  padding: 0 10px;
-  background-color: #dc8484;
+  float: right;
+  /* jarak antar kata*/
+  background-color: transparent;
 }
 .nama {
   height: 80px;
   background-color: #b43f3f;
-  margin: 0 40px;
   font-size: 30;
   padding: 10px;
   box-shadow: 5px 5px 10px #6e1e1e;
@@ -38,17 +44,8 @@ header {
   background-color: transparent;
   padding: 0 10px;
 }
-.bawah {
-  height: 65px;
-  margin: 0 40px;
+.bawah h3, p{
+  padding-left: 750px;
+  padding-bottom: 50px;
 }
-.container3 {
-  box-shadow: 5px 5px 10px #6e1e1e;
-  background-color: #dc8484;
-}
-.container3 h3 {
-  background-color: #dc8484;
-}
-.container3 p {
-  background-color: #dc8484;
-}
+

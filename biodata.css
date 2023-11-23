@@ -1,0 +1,54 @@
+* {
+  background-color: #ffeaea;
+}
+/* .container {
+  max-width: 1170px;
+  width: 100%;
+} */
+header {
+  margin: 0 40px;
+}
+.atas {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 10;
+  background-color: #dc8484;
+  height: 40px;
+}
+.atas a {
+  line-height: 40px;
+  color: white;
+  float: left;
+  padding: 0 10px;
+  background-color: #dc8484;
+}
+.nama {
+  height: 80px;
+  background-color: #b43f3f;
+  margin: 0 40px;
+  font-size: 30;
+  padding: 10px;
+  box-shadow: 5px 5px 10px #6e1e1e;
+  /* 10px : horizontal.
+  5px : bayangan secara vertikal, dan nilainya positif sehingga bayangan akan muncul di bawah elemen.
+  10px adalah ukuran blur bayangan. */
+}
+.nama p {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  background-color: transparent;
+  padding: 0 10px;
+}
+.bawah {
+  height: 65px;
+  margin: 0 40px;
+}
+.container3 {
+  box-shadow: 5px 5px 10px #6e1e1e;
+  background-color: #dc8484;
+}
+.container3 h3 {
+  background-color: #dc8484;
+}
+.container3 p {
+  background-color: #dc8484;
+}
